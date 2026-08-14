@@ -1,10 +1,10 @@
-# Risk prompts
+# risk prompts
 
 Use risk prompts before sizing trades, running multiple strategies, or enabling live trading. Risk prompts should make Sidera conservative and explicit.
 
 ## Position sizing
 
-```text
+```
 Design a position-sizing plan for this trade.
 
 Account size: [AMOUNT]
@@ -26,7 +26,7 @@ Calculate:
 
 ## Portfolio stress test
 
-```text
+```
 Stress test my portfolio under three scenarios:
 
 1. BTC drops 5%.
@@ -47,7 +47,7 @@ Estimate:
 
 ## Multi-strategy risk plan
 
-```text
+```
 Design a risk plan for running multiple strategies at once.
 
 Strategies:
@@ -66,7 +66,7 @@ Define:
 
 ## Pre-live risk review
 
-```text
+```
 Perform a pre-live risk review for this strategy.
 
 Strategy:
@@ -93,7 +93,7 @@ End with one of three decisions: not ready, minimum-size pilot, or approved for 
 
 ## RiskGuard configuration
 
-```text
+```
 Recommend RiskGuard settings for this strategy.
 
 Strategy type: [TYPE]
@@ -112,4 +112,3 @@ Return:
 - No-trade conditions
 - Emergency pause rules
 ```
-

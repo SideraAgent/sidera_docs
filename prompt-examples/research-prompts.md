@@ -1,10 +1,10 @@
-# Research prompts
+# research prompts
 
 Use research prompts to turn noisy market information into a structured thesis. The goal is to decide whether an idea deserves further strategy work, not to force a trade.
 
 ## Daily market scan
 
-```text
+```
 Scan BTC, ETH, SOL, and the highest-liquidity altcoin opportunities for the next 24-72 hours.
 
 Compare:
@@ -21,7 +21,7 @@ Rank the opportunities from strongest to weakest. For each market, provide bull 
 
 ## Single-asset thesis
 
-```text
+```
 Build a complete trading thesis for SOL over the next 3-7 days.
 
 Include:
@@ -41,7 +41,7 @@ End with a decision: no trade, monitor, backtest, or prepare a strategy.
 
 ## Catalyst research
 
-```text
+```
 Analyze whether the current catalyst for [ASSET] is tradeable.
 
 Separate:
@@ -58,7 +58,7 @@ Do not recommend execution unless the catalyst has a clear trigger and invalidat
 
 ## Long versus short comparison
 
-```text
+```
 Build both a long and short thesis for [ASSET].
 
 For each side, include:
@@ -74,7 +74,7 @@ Then compare which side has better asymmetry and explain whether the best action
 
 ## Narrative scan
 
-```text
+```
 Identify the strongest crypto market narratives this week.
 
 For each narrative, include:
@@ -90,7 +90,7 @@ Exclude illiquid assets and hype-only setups without clear invalidation.
 
 ## Market regime prompt
 
-```text
+```
 Classify the current market regime for BTC and ETH.
 
 Use:
@@ -104,4 +104,3 @@ Use:
 
 Tell me which strategy types are suitable right now: breakout, momentum, mean reversion, range trading, hedge, or no trade.
 ```
-

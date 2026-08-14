@@ -1,10 +1,10 @@
-# Strategy prompts
+# strategy prompts
 
 Use strategy prompts after research has produced a clear thesis. A good strategy prompt turns an idea into rules that can be backtested, dry-run, and reviewed.
 
 ## Thesis to strategy
 
-```text
+```
 Convert this thesis into a rules-based strategy.
 
 Market: [ASSET / VENUE]
@@ -28,7 +28,7 @@ Return the result as a strategy specification that can be implemented and tested
 
 ## Momentum strategy
 
-```text
+```
 Build a momentum strategy for [ASSET] using [TIMEFRAME] candles.
 
 Rules:
@@ -44,7 +44,7 @@ Include backtest assumptions and expected failure modes.
 
 ## Mean-reversion strategy
 
-```text
+```
 Build a mean-reversion strategy for [ASSET].
 
 Define:
@@ -61,7 +61,7 @@ Explain when this strategy should be paused.
 
 ## Breakout strategy
 
-```text
+```
 Create a breakout strategy for [ASSET] on [TIMEFRAME].
 
 Include:
@@ -78,7 +78,7 @@ Include:
 
 ## Hedge strategy
 
-```text
+```
 Design a hedge strategy for a long-biased crypto portfolio.
 
 Portfolio context:
@@ -98,7 +98,7 @@ Return a practical hedge plan with triggers, size, cost, and unwind conditions.
 
 ## Strategy improvement
 
-```text
+```
 Review this strategy and improve it without overfitting.
 
 Strategy rules:
@@ -117,4 +117,3 @@ Identify:
 
 Only recommend changes that can be tested clearly.
 ```
-

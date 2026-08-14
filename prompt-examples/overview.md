@@ -1,21 +1,21 @@
-# Prompt examples
+# overview
 
 This section provides ready-to-use Sidera prompts for research, strategy generation, risk management, execution checks, and post-trade review.
 
 Prompts work best when they define:
 
-- The market or asset.
-- The timeframe.
-- The decision you are trying to make.
-- The required evidence.
-- The risk limits.
-- The output format.
+* The market or asset.
+* The timeframe.
+* The decision you are trying to make.
+* The required evidence.
+* The risk limits.
+* The output format.
 
 ## Prompt structure
 
 Use this structure for most Sidera prompts:
 
-```text
+```
 Objective:
 Market:
 Timeframe:
@@ -27,7 +27,7 @@ Decision needed:
 
 Example:
 
-```text
+```
 Objective: Decide whether BTC is suitable for a long setup.
 Market: BTC perpetuals.
 Timeframe: Next 24-72 hours.
@@ -39,12 +39,33 @@ Decision needed: Watch, reject, backtest, or prepare an order.
 
 ## How to use these prompts
 
-1. Start with research prompts to identify a thesis.
-2. Convert the thesis into a strategy prompt.
-3. Run backtest and validation prompts.
-4. Use risk prompts before allocation.
-5. Use execution prompts before live orders.
-6. Use review prompts after the trade or strategy cycle.
+{% stepper %}
+{% step %}
+### Start with research prompts
+
+Identify a thesis.
+{% endstep %}
+
+{% step %}
+### Convert the thesis into a strategy prompt
+{% endstep %}
+
+{% step %}
+### Run backtest and validation prompts
+{% endstep %}
+
+{% step %}
+### Use risk prompts before allocation
+{% endstep %}
+
+{% step %}
+### Use execution prompts before live orders
+{% endstep %}
+
+{% step %}
+### Use review prompts after the trade or strategy cycle
+{% endstep %}
+{% endstepper %}
 
 {% hint style="warning" %}
 Prompts are not trading advice. Treat them as workflow templates. Always verify data, risk assumptions, venue behavior, and execution details before trading.
@@ -62,16 +83,16 @@ flowchart LR
     F --> G["Review prompt"]
 ```
 
-For a complete walkthrough of this sequence, see [End-to-end demo](../core-workflow/end-to-end-demo.md).
+For a complete walkthrough of this sequence, see [End-to-end demo](file:///4774416/core-workflow/end-to-end-demo.md).
 
 ## Prompt quality checklist
 
 Before running a prompt, check:
 
-- Is the asset clearly named?
-- Is the timeframe clear?
-- Is the requested output specific?
-- Does the prompt ask for invalidation?
-- Does it ask for risks, not only upside?
-- Does it include position sizing or risk budget when relevant?
-- Does it require a decision at the end?
+* Is the asset clearly named?
+* Is the timeframe clear?
+* Is the requested output specific?
+* Does the prompt ask for invalidation?
+* Does it ask for risks, not only upside?
+* Does it include position sizing or risk budget when relevant?
+* Does it require a decision at the end?

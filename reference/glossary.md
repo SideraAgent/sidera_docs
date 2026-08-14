@@ -1,4 +1,4 @@
-# Glossary
+# glossary
 
 ## Backtest
 
@@ -63,4 +63,3 @@ Sidera's strategy creation layer that translates natural-language ideas into exe
 ## Venue
 
 An exchange or trading platform where orders are placed.
-

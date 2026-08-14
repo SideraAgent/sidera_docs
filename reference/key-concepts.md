@@ -1,4 +1,4 @@
-# Key concepts
+# key concepts
 
 ## Research Copilot
 
@@ -43,4 +43,3 @@ The maximum capital a strategy is allowed to control.
 ## Decision log
 
 A record of why Sidera generated, approved, blocked, or executed a trading action.
-
